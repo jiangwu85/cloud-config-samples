@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-10-10T01:01:45.801Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="XHHDSqTNPAReDFikuCZn" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-10T01:13:32.938Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="cWDTG3QubvdoYVhHhC6B" version="20.4.0" type="github">
   <diagram id="OInQUNuNO3AYRQuPPQoJ" name="第 1 页">
-    <mxGraphModel dx="1155" dy="694" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="2426" dy="1320" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -46,7 +46,7 @@
         <mxCell id="c69Hro142BYg-FE61Mr1-17" value="Jenkins" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="575" y="150" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="c69Hro142BYg-FE61Mr1-18" value="SonarQube" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="c69Hro142BYg-FE61Mr1-18" value="&lt;strike&gt;SonarQube&lt;/strike&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="575" y="200" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="c69Hro142BYg-FE61Mr1-19" value="Source To Image" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
@@ -58,7 +58,7 @@
         <mxCell id="c69Hro142BYg-FE61Mr1-24" value="RBAC" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="735" y="145" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="c69Hro142BYg-FE61Mr1-25" value="Oauth2.0" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="c69Hro142BYg-FE61Mr1-25" value="&lt;strike&gt;Oauth2.0&lt;/strike&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="735" y="200" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="c69Hro142BYg-FE61Mr1-26" value="&lt;div&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Storage&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=2;fillColor=none;verticalAlign=top;fontStyle=1" vertex="1" parent="1">
