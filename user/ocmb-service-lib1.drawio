@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2022-10-10T00:49:44.726Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="ZJKiR3jTphKJZ5Ci1ALa" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-10T01:01:45.801Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="XHHDSqTNPAReDFikuCZn" version="20.4.0" type="github">
   <diagram id="OInQUNuNO3AYRQuPPQoJ" name="第 1 页">
-    <mxGraphModel dx="2062" dy="1122" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="1155" dy="694" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="c69Hro142BYg-FE61Mr1-2" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;backend&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=2;fillColor=none;verticalAlign=top;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="c69Hro142BYg-FE61Mr1-2" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;backend(REST API)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=2;fillColor=none;verticalAlign=top;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="90" y="40" width="1120" height="440" as="geometry" />
         </mxCell>
         <mxCell id="c69Hro142BYg-FE61Mr1-3" value="&lt;div&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Business system&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=2;fillColor=none;verticalAlign=top;fontStyle=1" vertex="1" parent="1">
@@ -26,7 +26,7 @@
           <mxGeometry x="125" y="360" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="c69Hro142BYg-FE61Mr1-9" value="&lt;div&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Spring cloud&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=2;fillColor=none;verticalAlign=top;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="270" y="110" width="130" height="260" as="geometry" />
+          <mxGeometry x="270" y="110" width="130" height="190" as="geometry" />
         </mxCell>
         <mxCell id="c69Hro142BYg-FE61Mr1-10" value="Gateway Service" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="275" y="160" width="120" height="40" as="geometry" />
@@ -75,6 +75,27 @@
         </mxCell>
         <mxCell id="c69Hro142BYg-FE61Mr1-30" value="Redis" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1045" y="200" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c69Hro142BYg-FE61Mr1-31" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;Infrstructure&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=2;fillColor=none;verticalAlign=top;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="90" y="500" width="1120" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="c69Hro142BYg-FE61Mr1-32" value="Kubernetes" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="120" y="535" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c69Hro142BYg-FE61Mr1-33" value="Private Cloud" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="480" y="540" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c69Hro142BYg-FE61Mr1-34" value="Public Cloud" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="660" y="540" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c69Hro142BYg-FE61Mr1-35" value="VM" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="840" y="540" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c69Hro142BYg-FE61Mr1-36" value="Bare Metal" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1015" y="540" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c69Hro142BYg-FE61Mr1-38" value="Docker" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="295" y="540" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
