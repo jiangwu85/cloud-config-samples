@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-10T16:12:36.746Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="9cyubdkRcazMrEeKxHQH" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-10T16:17:04.889Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="Og1DURf2FsPo7DIqMeMr" version="20.4.0" type="github">
   <diagram id="OInQUNuNO3AYRQuPPQoJ" name="第 1 页">
     <mxGraphModel dx="2062" dy="1122" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
@@ -143,10 +143,10 @@
           <mxGeometry x="420" y="90" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="c69Hro142BYg-FE61Mr1-86" value="Eureka Client" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="815" y="90" width="140" height="60" as="geometry" />
+          <mxGeometry x="580" y="90" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="c69Hro142BYg-FE61Mr1-88" value="Remote&amp;nbsp;Cache(Redis)" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1240" y="90" width="140" height="60" as="geometry" />
+          <mxGeometry x="745" y="90" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="c69Hro142BYg-FE61Mr1-89" value="Spring Cloud" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="225" y="140" width="140" height="60" as="geometry" />
@@ -177,6 +177,18 @@
         </mxCell>
         <mxCell id="c69Hro142BYg-FE61Mr1-98" value="ELK" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1480" y="720" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="c69Hro142BYg-FE61Mr1-99" value="Ocmb&lt;br&gt;Authentication" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="910" y="90" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="c69Hro142BYg-FE61Mr1-100" value="Ocmb Route&amp;nbsp;Config" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="90" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="c69Hro142BYg-FE61Mr1-101" value="Ocmb ErrorMessage" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1250" y="90" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="c69Hro142BYg-FE61Mr1-102" value="Ocmb&lt;br&gt;Response Format" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="570" y="450" width="140" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
