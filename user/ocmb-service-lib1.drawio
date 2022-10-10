@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-10-10T16:20:30.324Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="fX-2BIf6i6O3Kb75U82F" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-10T16:24:02.789Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="wclT8w4tOpQY3Ll6CbR6" version="20.4.0" type="github">
   <diagram id="OInQUNuNO3AYRQuPPQoJ" name="第 1 页">
-    <mxGraphModel dx="2062" dy="1122" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="3162" dy="1122" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -189,6 +189,9 @@
         </mxCell>
         <mxCell id="c69Hro142BYg-FE61Mr1-102" value="Ocmb&lt;br&gt;Response Format" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="570" y="450" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="c69Hro142BYg-FE61Mr1-103" value="" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;dashed=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="880" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
