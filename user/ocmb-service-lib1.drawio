@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-10-13T15:25:58.618Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="-BUW6HdagJCvMw73OzRP" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-13T15:29:24.346Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="wQ7iBrOYc-vCUdQh0Lvn" version="20.4.0" type="github">
   <diagram id="OInQUNuNO3AYRQuPPQoJ" name="第 1 页">
-    <mxGraphModel dx="2946" dy="1603" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="2062" dy="1122" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -38,13 +38,13 @@
           <mxGeometry x="390" y="60" width="1000" height="110" as="geometry" />
         </mxCell>
         <mxCell id="1uEvt_R6zlW470bMk80g-115" value="&lt;div&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Cache&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=2;fillColor=none;verticalAlign=top;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="415" y="950" width="280" height="130" as="geometry" />
+          <mxGeometry x="210" y="940" width="280" height="130" as="geometry" />
         </mxCell>
         <mxCell id="1uEvt_R6zlW470bMk80g-116" value="&lt;div&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;DB&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=2;fillColor=none;verticalAlign=top;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="1125" y="950" width="330" height="130" as="geometry" />
+          <mxGeometry x="1150" y="940" width="470" height="130" as="geometry" />
         </mxCell>
         <mxCell id="1uEvt_R6zlW470bMk80g-117" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;File Storage&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=2;fillColor=none;verticalAlign=top;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="745" y="950" width="330" height="130" as="geometry" />
+          <mxGeometry x="510" y="940" width="620" height="130" as="geometry" />
         </mxCell>
         <mxCell id="1uEvt_R6zlW470bMk80g-118" value="&lt;div&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Logging&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=2;fillColor=none;verticalAlign=top;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="225" y="789" width="645" height="121" as="geometry" />
@@ -52,20 +52,8 @@
         <mxCell id="1uEvt_R6zlW470bMk80g-119" value="&lt;span style=&quot;font-size: 14px; font-weight: 400;&quot;&gt;Microservice &lt;br&gt;registry &amp;amp; Discovery&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=2;fillColor=none;verticalAlign=top;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="220" y="60" width="150" height="280" as="geometry" />
         </mxCell>
-        <mxCell id="1uEvt_R6zlW470bMk80g-120" value="AWS S3" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="755" y="990" width="90" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="1uEvt_R6zlW470bMk80g-121" value="Hard disk" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="865" y="990" width="90" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="1uEvt_R6zlW470bMk80g-122" value="DateBase" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="975" y="990" width="90" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="1uEvt_R6zlW470bMk80g-123" value="Redis" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="485" y="990" width="140" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="1uEvt_R6zlW470bMk80g-124" value="Mysql" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1165" y="985" width="90" height="60" as="geometry" />
+          <mxGeometry x="280" y="980" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="1uEvt_R6zlW470bMk80g-125" value="&lt;div&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;File&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=2;fillColor=none;verticalAlign=top;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="415" y="525" width="305" height="95" as="geometry" />
@@ -132,9 +120,6 @@
         </mxCell>
         <mxCell id="1uEvt_R6zlW470bMk80g-151" value="OCDB&amp;nbsp;Route&amp;nbsp;Config" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="950" y="90" width="140" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="1uEvt_R6zlW470bMk80g-153" value="Mariadb" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1305" y="990" width="90" height="60" as="geometry" />
         </mxCell>
         <mxCell id="1uEvt_R6zlW470bMk80g-161" value="&lt;div&gt;Interceptor&lt;/div&gt;&lt;div&gt;Encryption and decryption&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;AES(16bit)&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1234" y="546" width="139" height="60" as="geometry" />
@@ -333,6 +318,27 @@
         </mxCell>
         <mxCell id="1uEvt_R6zlW470bMk80g-257" value="Response Format" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1450" y="390.00000000000006" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1uEvt_R6zlW470bMk80g-259" value="&lt;div&gt;Cloud disk&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="830" y="980" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1uEvt_R6zlW470bMk80g-260" value="Hard disk" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="680" y="980" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1uEvt_R6zlW470bMk80g-261" value="AWS S3" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="530" y="980" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1uEvt_R6zlW470bMk80g-262" value="DateBase" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="980" y="980" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1uEvt_R6zlW470bMk80g-263" value="Mysql" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="980" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1uEvt_R6zlW470bMk80g-264" value="Mariadb" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1321" y="980" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1uEvt_R6zlW470bMk80g-265" value="Mongodb" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1470" y="980" width="130" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
