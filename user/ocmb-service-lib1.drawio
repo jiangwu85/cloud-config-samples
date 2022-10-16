@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2022-10-16T13:04:30.988Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="tTrw2izxnfxP6D16mKFc" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-16T13:06:14.923Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="Y-FWxNORti1fDY2q5yvH" version="20.4.0" type="github">
   <diagram id="OInQUNuNO3AYRQuPPQoJ" name="第 1 页">
     <mxGraphModel dx="2064" dy="1122" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="1uEvt_R6zlW470bMk80g-105" value="&lt;div&gt;&lt;span style=&quot;font-size: 14px; font-weight: 400;&quot;&gt;Third party services&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=2;fillColor=none;verticalAlign=top;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="30" y="542.16" width="180" height="257.84" as="geometry" />
+          <mxGeometry x="40" y="542.16" width="170" height="257.84" as="geometry" />
         </mxCell>
         <mxCell id="1uEvt_R6zlW470bMk80g-106" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;backend(REST API)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=2;fillColor=none;verticalAlign=top;fontStyle=1;strokeColor=#FF0505;" parent="1" vertex="1">
           <mxGeometry x="232" y="20" width="1420" height="1230" as="geometry" />
@@ -59,7 +59,7 @@
           <mxGeometry x="524" y="293.75" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="1uEvt_R6zlW470bMk80g-144" value="&lt;div&gt;&lt;span style=&quot;font-size: 14px; font-weight: 400;&quot;&gt;OC Other services&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=2;fillColor=none;verticalAlign=top;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="30" y="20" width="180" height="490" as="geometry" />
+          <mxGeometry x="40" y="20" width="170" height="490" as="geometry" />
         </mxCell>
         <mxCell id="1uEvt_R6zlW470bMk80g-145" value="Core Banking" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="54" y="80" width="140" height="60" as="geometry" />
