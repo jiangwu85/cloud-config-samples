@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-10-16T14:26:56.420Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="wsLzerY_9NmG6SE3C22m" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-16T15:42:22.550Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="ujE7IaP2lgpGP3EXmdDW" version="20.4.0" type="github">
   <diagram id="OInQUNuNO3AYRQuPPQoJ" name="第 1 页">
-    <mxGraphModel dx="1826" dy="982" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="2217" dy="1193" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -20,10 +20,10 @@
           <mxGeometry x="480" y="1063" width="490" height="120" as="geometry" />
         </mxCell>
         <mxCell id="1uEvt_R6zlW470bMk80g-105" value="&lt;div&gt;&lt;span style=&quot;font-size: 14px; font-weight: 400;&quot;&gt;Third party services&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=2;fillColor=none;verticalAlign=top;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="40" y="542.16" width="170" height="257.84" as="geometry" />
+          <mxGeometry x="40" y="542.16" width="170" height="337.84" as="geometry" />
         </mxCell>
         <mxCell id="1uEvt_R6zlW470bMk80g-233" value="&lt;div&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Filter&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=2;fillColor=none;verticalAlign=top;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="1464" y="100" width="160" height="669" as="geometry" />
+          <mxGeometry x="1464" y="100" width="160" height="540" as="geometry" />
         </mxCell>
         <mxCell id="1uEvt_R6zlW470bMk80g-108" value="&lt;div&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;File generation&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=2;fillColor=none;verticalAlign=top;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="459" y="260" width="471" height="210" as="geometry" />
@@ -34,7 +34,7 @@
         <mxCell id="1uEvt_R6zlW470bMk80g-111" value="&lt;div&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;DevOps&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=2;fillColor=none;verticalAlign=top;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="1672" y="20" width="170" height="690" as="geometry" />
         </mxCell>
-        <mxCell id="1uEvt_R6zlW470bMk80g-113" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;Out Engine&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=2;fillColor=none;verticalAlign=top;fontStyle=1" parent="1" vertex="1">
+        <mxCell id="1uEvt_R6zlW470bMk80g-113" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;Bank API&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Integrate&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Engine&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=2;fillColor=none;verticalAlign=top;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="459" y="619" width="970" height="120" as="geometry" />
         </mxCell>
         <mxCell id="1uEvt_R6zlW470bMk80g-114" value="&lt;div&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;GateWay&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=2;fillColor=none;verticalAlign=top;fontStyle=1" parent="1" vertex="1">
@@ -50,7 +50,7 @@
           <mxGeometry x="542" y="1279" width="620" height="130" as="geometry" />
         </mxCell>
         <mxCell id="1uEvt_R6zlW470bMk80g-118" value="&lt;div&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Logging&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=2;fillColor=none;verticalAlign=top;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="1464" y="789" width="159" height="420" as="geometry" />
+          <mxGeometry x="1466.5" y="653.9899999999999" width="159" height="321" as="geometry" />
         </mxCell>
         <mxCell id="1uEvt_R6zlW470bMk80g-123" value="Redis Server" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="312" y="1319" width="140" height="60" as="geometry" />
@@ -88,8 +88,8 @@
         <mxCell id="1uEvt_R6zlW470bMk80g-199" value="&lt;span style=&quot;font-size: 14px; font-weight: 400;&quot;&gt;Monitor&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=2;fillColor=none;verticalAlign=top;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="251" y="878" width="152" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="1uEvt_R6zlW470bMk80g-208" value="OCDB&amp;nbsp;Reset ErrorMessage" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="1473.5" y="570" width="140" height="60" as="geometry" />
+        <mxCell id="1uEvt_R6zlW470bMk80g-208" value="Error Message Mapping" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1476" y="460" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="1uEvt_R6zlW470bMk80g-210" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;Turbine&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#FFCCCC;" parent="1" vertex="1">
           <mxGeometry x="260" y="922" width="134" height="60" as="geometry" />
@@ -109,29 +109,26 @@
         <mxCell id="1uEvt_R6zlW470bMk80g-227" value="Mybatis Plus" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="483.25" y="788.9999999999999" width="139" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="1uEvt_R6zlW470bMk80g-229" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Request decryption&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;AES(16bit),RSA(1024bit)&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" parent="1" vertex="1">
+        <mxCell id="1uEvt_R6zlW470bMk80g-229" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Request payload decryption&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;AES(16bit),RSA(1024bit)&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1476" y="354.5" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="1uEvt_R6zlW470bMk80g-232" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Response Encryption&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;AES(16bit),RSA(1024bit)&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="1476" y="680" width="140" height="60" as="geometry" />
+          <mxGeometry x="1476" y="559" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="1uEvt_R6zlW470bMk80g-234" value="JWT&lt;br&gt;Authentication" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#FFCCCC;" parent="1" vertex="1">
+        <mxCell id="1uEvt_R6zlW470bMk80g-234" value="JWT &lt;br&gt;(HS512)" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#FFCCCC;" parent="1" vertex="1">
           <mxGeometry x="1476" y="149" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="1uEvt_R6zlW470bMk80g-235" value="OCDB&lt;br&gt;Permission Check" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#FFCCCC;" parent="1" vertex="1">
+        <mxCell id="1uEvt_R6zlW470bMk80g-235" value="Role &amp;amp; URL&lt;br&gt;Permission Check" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#FFCCCC;" parent="1" vertex="1">
           <mxGeometry x="1476" y="249.11999999999995" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="1uEvt_R6zlW470bMk80g-238" value="Logstash" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="1476" y="825" width="140" height="60" as="geometry" />
+        <mxCell id="1uEvt_R6zlW470bMk80g-238" value="Logback" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1478.5" y="689.9899999999999" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="1uEvt_R6zlW470bMk80g-239" value="Ocmb Desensitize" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="1474" y="924" width="140" height="60" as="geometry" />
+        <mxCell id="1uEvt_R6zlW470bMk80g-239" value="Mask Sensitive Data" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1476.5" y="788.9899999999999" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="1uEvt_R6zlW470bMk80g-240" value="Ocmb&lt;br&gt;Log Format" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="1476" y="1024" width="140" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="1uEvt_R6zlW470bMk80g-241" value="OCDB&lt;br&gt;RequestID Tracking" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="1476" y="1125" width="140" height="60" as="geometry" />
+        <mxCell id="1uEvt_R6zlW470bMk80g-241" value="RequestID Tracking" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1478.5" y="877.9899999999999" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="1uEvt_R6zlW470bMk80g-245" value="Jenkins" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1687" y="80" width="140" height="60" as="geometry" />
@@ -159,9 +156,6 @@
         </mxCell>
         <mxCell id="1uEvt_R6zlW470bMk80g-256" value="Maven" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1687" y="1169" width="140" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="1uEvt_R6zlW470bMk80g-257" value="Response Format" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="1473.5" y="460.00000000000006" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="1uEvt_R6zlW470bMk80g-259" value="&lt;div&gt;Cloud disk&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="862" y="1319" width="130" height="60" as="geometry" />
@@ -325,15 +319,6 @@
         <mxCell id="1uEvt_R6zlW470bMk80g-188" value="WebSocket" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1004" y="400" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="rc3Xo7mNxMu2PA2NB6cC-5" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;Access Security&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=2;fillColor=none;verticalAlign=top;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="1058" y="493.5" width="372" height="111.5" as="geometry" />
-        </mxCell>
-        <mxCell id="rc3Xo7mNxMu2PA2NB6cC-6" value="JWT" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1080" y="520" width="140" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="rc3Xo7mNxMu2PA2NB6cC-7" value="Token" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1259" y="520" width="140" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="rc3Xo7mNxMu2PA2NB6cC-9" value="Actuator" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="622.25" y="1099" width="85.5" height="60" as="geometry" />
         </mxCell>
@@ -345,6 +330,9 @@
         </mxCell>
         <mxCell id="rc3Xo7mNxMu2PA2NB6cC-14" value="Mysql Client" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1030" y="789.9999999999999" width="139" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rc3Xo7mNxMu2PA2NB6cC-22" value="AWS S3" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="55" y="796.32" width="140" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
