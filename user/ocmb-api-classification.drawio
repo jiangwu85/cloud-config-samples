@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-20T13:38:25.152Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="vg7bbc6lGZwxkTUBxcIs" version="20.4.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-20T13:48:18.536Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="RVgC7wkOMEeZt_ikIS_5" version="20.4.1" type="github">
   <diagram id="OInQUNuNO3AYRQuPPQoJ" name="第 1 页">
     <mxGraphModel dx="1875" dy="1020" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
@@ -614,7 +614,7 @@
           <mxGeometry x="630" y="2370" width="110" height="60" as="geometry" />
         </mxCell>
         <mxCell id="O0PW9jx7jIYoNXfm1WO1-255" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;bank&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=2;fillColor=none;verticalAlign=top;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="990" y="1080" width="930" height="1010" as="geometry" />
+          <mxGeometry x="990" y="1080" width="930" height="1480" as="geometry" />
         </mxCell>
         <mxCell id="O0PW9jx7jIYoNXfm1WO1-256" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;oauth&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=2;fillColor=none;verticalAlign=top;fontStyle=1;opacity=40;" vertex="1" parent="1">
           <mxGeometry x="1010" y="1120" width="430" height="230" as="geometry" />
@@ -741,6 +741,54 @@
         </mxCell>
         <mxCell id="O0PW9jx7jIYoNXfm1WO1-426" value="add" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1630" y="1773" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="O0PW9jx7jIYoNXfm1WO1-437" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;Customer&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=2;fillColor=none;verticalAlign=top;fontStyle=1;opacity=40;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="1900" width="430" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="O0PW9jx7jIYoNXfm1WO1-438" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;protal&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=2;fillColor=none;verticalAlign=top;fontStyle=1;opacity=20;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="1930" width="390" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="O0PW9jx7jIYoNXfm1WO1-439" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;web &amp;amp; app&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=2;fillColor=none;verticalAlign=top;fontStyle=1;opacity=20;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="2040" width="390" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="O0PW9jx7jIYoNXfm1WO1-440" value="get by id" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="1960" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="O0PW9jx7jIYoNXfm1WO1-444" value="get current customer" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="2070" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="O0PW9jx7jIYoNXfm1WO1-445" value="get transfer eligible verify result by eligibleType" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="2070" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="O0PW9jx7jIYoNXfm1WO1-446" value="get transfer eligible verify result by eligibleType" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1300" y="2070" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="O0PW9jx7jIYoNXfm1WO1-447" value="get transaction histories" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="2140" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="O0PW9jx7jIYoNXfm1WO1-448" value="update profile" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="2140" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="O0PW9jx7jIYoNXfm1WO1-449" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;current deposit account&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=2;fillColor=none;verticalAlign=top;fontStyle=1;opacity=40;" vertex="1" parent="1">
+          <mxGeometry x="1470" y="1880" width="430" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="O0PW9jx7jIYoNXfm1WO1-451" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;web &amp;amp; app&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=2;fillColor=none;verticalAlign=top;fontStyle=1;opacity=20;" vertex="1" parent="1">
+          <mxGeometry x="1490" y="1910" width="390" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="O0PW9jx7jIYoNXfm1WO1-453" value="get account" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1500" y="1940" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="O0PW9jx7jIYoNXfm1WO1-454" value="close account" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1630" y="1940" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="O0PW9jx7jIYoNXfm1WO1-455" value="get by accountNo" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1760" y="1940" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="O0PW9jx7jIYoNXfm1WO1-456" value="get limit info by accountNo" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1500" y="2010" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="O0PW9jx7jIYoNXfm1WO1-457" value="list filter transaction histories by&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1630" y="2010" width="110" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
