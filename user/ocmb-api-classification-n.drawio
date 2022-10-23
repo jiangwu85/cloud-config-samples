@@ -1,75 +1,9 @@
-<mxfile host="app.diagrams.net" modified="2022-10-23T16:22:24.722Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="e5MwbjX7h8JwzFM2OEl2" version="20.4.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-23T16:22:48.869Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="yhFG9UVApLntOpfMtXe7" version="20.4.2" type="github">
   <diagram id="OInQUNuNO3AYRQuPPQoJ" name="第 1 页">
-    <mxGraphModel dx="1793" dy="1853" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="8248" dy="5466" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="O0PW9jx7jIYoNXfm1WO1-255" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;bank&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=2;fillColor=none;verticalAlign=top;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="990" y="1080" width="930" height="1980" as="geometry" />
-        </mxCell>
-        <mxCell id="O0PW9jx7jIYoNXfm1WO1-474" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;ekyc&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=2;fillColor=none;verticalAlign=top;fontStyle=1;opacity=40;" parent="1" vertex="1">
-          <mxGeometry x="1010" y="2820" width="430" height="140" as="geometry" />
-        </mxCell>
-        <mxCell id="O0PW9jx7jIYoNXfm1WO1-475" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;web &amp;amp; app&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=2;fillColor=none;verticalAlign=top;fontStyle=1;opacity=20;" parent="1" vertex="1">
-          <mxGeometry x="1030" y="2850" width="390" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="O0PW9jx7jIYoNXfm1WO1-476" value="biapfacecomparison" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="1040" y="2880" width="110" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="O0PW9jx7jIYoNXfm1WO1-477" value="biapfacerecognition" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="1170" y="2880" width="110" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="O0PW9jx7jIYoNXfm1WO1-478" value="detect multi side" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="1300" y="2880" width="110" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="O0PW9jx7jIYoNXfm1WO1-481" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;transfer&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=2;fillColor=none;verticalAlign=top;fontStyle=1;opacity=40;" parent="1" vertex="1">
-          <mxGeometry x="1470" y="2620" width="430" height="210" as="geometry" />
-        </mxCell>
-        <mxCell id="O0PW9jx7jIYoNXfm1WO1-482" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;web &amp;amp; app&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=2;fillColor=none;verticalAlign=top;fontStyle=1;opacity=20;" parent="1" vertex="1">
-          <mxGeometry x="1490" y="2650" width="390" height="170" as="geometry" />
-        </mxCell>
-        <mxCell id="O0PW9jx7jIYoNXfm1WO1-483" value="amount verification (buy now pay later)" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="1500" y="2680" width="110" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="O0PW9jx7jIYoNXfm1WO1-484" value="disbursements (buy now pay later)" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="1630" y="2680" width="110" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="O0PW9jx7jIYoNXfm1WO1-485" value="interest calculation (buy now pay later)" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="1760" y="2680" width="110" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="O0PW9jx7jIYoNXfm1WO1-486" value="transfer by qr-code" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="1500" y="2750" width="110" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="O0PW9jx7jIYoNXfm1WO1-487" value="get server transaction date" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="1630" y="2750" width="110" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="O0PW9jx7jIYoNXfm1WO1-488" value="transfer with internal bank" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="1760" y="2750" width="110" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="O0PW9jx7jIYoNXfm1WO1-499" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;current card&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=2;fillColor=none;verticalAlign=top;fontStyle=1;opacity=40;" parent="1" vertex="1">
-          <mxGeometry x="1010" y="2520" width="430" height="290" as="geometry" />
-        </mxCell>
-        <mxCell id="O0PW9jx7jIYoNXfm1WO1-500" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;web &amp;amp; app&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=2;fillColor=none;verticalAlign=top;fontStyle=1;opacity=20;" parent="1" vertex="1">
-          <mxGeometry x="1030" y="2550" width="390" height="240" as="geometry" />
-        </mxCell>
-        <mxCell id="O0PW9jx7jIYoNXfm1WO1-504" value="list cards" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="1040" y="2650" width="110" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="O0PW9jx7jIYoNXfm1WO1-505" value="get info by cardId" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="1170" y="2650" width="110" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="O0PW9jx7jIYoNXfm1WO1-506" value="update card limit" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="1300" y="2650" width="110" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="O0PW9jx7jIYoNXfm1WO1-507" value="get pic info by cardId" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="1040" y="2720" width="110" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="O0PW9jx7jIYoNXfm1WO1-508" value="update pin by cardId" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="1170" y="2720" width="110" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="O0PW9jx7jIYoNXfm1WO1-509" value="update status" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="1300" y="2720" width="110" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="ppl4AUfpNEPx4JlbEjYc-67" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;application&amp;nbsp;module&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=2;fillColor=none;verticalAlign=top;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="530" y="-830" width="470" height="1040" as="geometry" />
         </mxCell>
