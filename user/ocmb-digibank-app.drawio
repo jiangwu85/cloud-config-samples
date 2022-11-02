@@ -1,104 +1,317 @@
-<mxfile host="app.diagrams.net" modified="2022-11-02T13:21:35.745Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="0t4ePrXebcv5gwyfwdzQ" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-02T15:14:58.720Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="AwY12X-mvwf-dds8opc-" version="20.5.1" type="github">
   <diagram id="OInQUNuNO3AYRQuPPQoJ" name="第 1 页">
-    <mxGraphModel dx="3314" dy="1193" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="3683" dy="1392" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="1uEvt_R6zlW470bMk80g-106" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;Digibank APP&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=2;fillColor=none;verticalAlign=top;fontStyle=1;strokeColor=#FF0505;" parent="1" vertex="1">
-          <mxGeometry x="-160" y="20" width="2210" height="1080" as="geometry" />
+          <mxGeometry x="-110" y="20" width="2610" height="1060" as="geometry" />
         </mxCell>
         <mxCell id="x6n-TaQfmUCHtvgikXO5-33" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;APP&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=2;fillColor=none;verticalAlign=top;fontStyle=1;strokeColor=#0000FF;" parent="1" vertex="1">
-          <mxGeometry x="490" y="60" width="1220" height="920" as="geometry" />
+          <mxGeometry x="490" y="60" width="1220" height="950" as="geometry" />
         </mxCell>
         <mxCell id="Uudwp2KT5LUZXiGAhWFN-2" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;oc-ui-rn&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=2;fillColor=none;verticalAlign=top;fontStyle=1;strokeColor=#0000FF;" vertex="1" parent="1">
-          <mxGeometry x="-130" y="60" width="600" height="500" as="geometry" />
+          <mxGeometry x="-70" y="60" width="540" height="730" as="geometry" />
         </mxCell>
         <mxCell id="Uudwp2KT5LUZXiGAhWFN-3" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; font-weight: 400; text-align: start;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22Poi%22%20style%3D%22rounded%3D0%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3BfontColor%3D%23000000%3BfillColor%3Dnone%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22524%22%20y%3D%22293.75%22%20width%3D%22140%22%20height%3D%2260%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;oc-id-rn&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=2;fillColor=none;verticalAlign=top;fontStyle=1;strokeColor=#0000FF;" vertex="1" parent="1">
-          <mxGeometry x="250" y="730" width="210" height="100" as="geometry" />
+          <mxGeometry x="-70" y="810" width="230" height="120" as="geometry" />
         </mxCell>
         <mxCell id="Uudwp2KT5LUZXiGAhWFN-5" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;oc-fr-rn&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=2;fillColor=none;verticalAlign=top;fontStyle=1;strokeColor=#0000FF;" vertex="1" parent="1">
-          <mxGeometry x="1740" y="60" width="210" height="500" as="geometry" />
+          <mxGeometry x="-70" y="950" width="230" height="120" as="geometry" />
         </mxCell>
         <mxCell id="Uudwp2KT5LUZXiGAhWFN-6" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;oc-lib-rn&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=2;fillColor=none;verticalAlign=top;fontStyle=1;strokeColor=#0000FF;" vertex="1" parent="1">
-          <mxGeometry x="1740" y="580" width="210" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="Uudwp2KT5LUZXiGAhWFN-9" value="oc-fr-rn" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1770" y="100" width="140" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="Uudwp2KT5LUZXiGAhWFN-11" value="oc-lib-rn" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1775" y="610" width="140" height="60" as="geometry" />
+          <mxGeometry x="240" y="810" width="230" height="120" as="geometry" />
         </mxCell>
         <mxCell id="Uudwp2KT5LUZXiGAhWFN-12" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;Base&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=2;fillColor=none;verticalAlign=top;fontStyle=1;strokeColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="510" y="610" width="830" height="340" as="geometry" />
+          <mxGeometry x="510" y="630" width="1140" height="340" as="geometry" />
         </mxCell>
         <mxCell id="Uudwp2KT5LUZXiGAhWFN-15" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;Notification&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;(react-native-firebase&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=2;fillColor=none;verticalAlign=top;fontStyle=1;strokeColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="770" y="90" width="230" height="370" as="geometry" />
+          <mxGeometry x="510" y="240" width="230" height="360" as="geometry" />
         </mxCell>
         <mxCell id="Uudwp2KT5LUZXiGAhWFN-16" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;Storage&lt;br&gt;(&lt;/span&gt;&lt;span style=&quot;color: rgb(23, 43, 77); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 14px; font-weight: 400; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;@react-native-async-storage&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;)&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=2;fillColor=none;verticalAlign=top;fontStyle=1;strokeColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="210" y="90" width="230" height="420" as="geometry" />
+          <mxGeometry x="215" y="480" width="230" height="130" as="geometry" />
         </mxCell>
         <mxCell id="Uudwp2KT5LUZXiGAhWFN-17" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;Network&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=2;fillColor=none;verticalAlign=top;fontStyle=1;strokeColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="510" y="90" width="230" height="310" as="geometry" />
+          <mxGeometry x="510" y="90" width="230" height="130" as="geometry" />
         </mxCell>
         <mxCell id="Uudwp2KT5LUZXiGAhWFN-18" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;Customize Libs&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=2;fillColor=none;verticalAlign=top;fontStyle=1;strokeColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="1450" y="90" width="230" height="360" as="geometry" />
+          <mxGeometry x="1030" y="90" width="230" height="360" as="geometry" />
         </mxCell>
         <mxCell id="Uudwp2KT5LUZXiGAhWFN-19" value="oc-ui-rn" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1495" y="130" width="140" height="60" as="geometry" />
+          <mxGeometry x="1075" y="130" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Uudwp2KT5LUZXiGAhWFN-20" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22Poi%22%20style%3D%22rounded%3D0%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3BfontColor%3D%23000000%3BfillColor%3Dnone%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22524%22%20y%3D%22293.75%22%20width%3D%22140%22%20height%3D%2260%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;oc-id-rn" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1495" y="210" width="140" height="60" as="geometry" />
+          <mxGeometry x="1075" y="210" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Uudwp2KT5LUZXiGAhWFN-21" value="oc-fr-rn" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1495" y="290" width="140" height="60" as="geometry" />
+          <mxGeometry x="1075" y="290" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Uudwp2KT5LUZXiGAhWFN-22" value="oc-lib-rn" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1495" y="370" width="140" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="Uudwp2KT5LUZXiGAhWFN-23" value="mobx" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="575" y="680" width="140" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="Uudwp2KT5LUZXiGAhWFN-24" value="mobx-react" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="575" y="760" width="140" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="Uudwp2KT5LUZXiGAhWFN-25" value="mobx-state-tree" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="575" y="840" width="140" height="60" as="geometry" />
+          <mxGeometry x="1075" y="370" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Uudwp2KT5LUZXiGAhWFN-26" value="axios" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="555" y="140" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Uudwp2KT5LUZXiGAhWFN-28" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;state management&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=2;fillColor=none;verticalAlign=top;fontStyle=1;strokeColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="530" y="640" width="230" height="280" as="geometry" />
+          <mxGeometry x="530" y="660" width="230" height="280" as="geometry" />
         </mxCell>
         <mxCell id="Uudwp2KT5LUZXiGAhWFN-30" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;RN Base&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=2;fillColor=none;verticalAlign=top;fontStyle=1;strokeColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="780" y="640" width="230" height="280" as="geometry" />
+          <mxGeometry x="780" y="660" width="230" height="280" as="geometry" />
         </mxCell>
         <mxCell id="Uudwp2KT5LUZXiGAhWFN-13" value="react" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="815" y="680" width="140" height="60" as="geometry" />
+          <mxGeometry x="815" y="700" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Uudwp2KT5LUZXiGAhWFN-14" value="react-native" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="815" y="760" width="140" height="60" as="geometry" />
+          <mxGeometry x="815" y="780" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Uudwp2KT5LUZXiGAhWFN-31" value="&lt;div&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Common tools&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=2;fillColor=none;verticalAlign=top;fontStyle=1;strokeColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="1030" y="640" width="230" height="280" as="geometry" />
+          <mxGeometry x="1030" y="660" width="230" height="280" as="geometry" />
         </mxCell>
-        <mxCell id="Uudwp2KT5LUZXiGAhWFN-32" value="moment" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1065" y="680" width="140" height="60" as="geometry" />
+        <mxCell id="Uudwp2KT5LUZXiGAhWFN-32" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 14px;&quot;&gt;&lt;font face=&quot;-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Fira Sans, Droid Sans, Helvetica Neue, sans-serif&quot; color=&quot;#172b4d&quot;&gt;moment&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1065" y="700" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Uudwp2KT5LUZXiGAhWFN-38" value="crashlytics" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="815" y="285" width="140" height="60" as="geometry" />
+          <mxGeometry x="555" y="435" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Uudwp2KT5LUZXiGAhWFN-37" value="app" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="815" y="215" width="140" height="60" as="geometry" />
+          <mxGeometry x="555" y="365" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Uudwp2KT5LUZXiGAhWFN-36" value="analytics" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="815" y="140" width="140" height="60" as="geometry" />
+          <mxGeometry x="555" y="290" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Uudwp2KT5LUZXiGAhWFN-39" value="messaging" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="815" y="365" width="140" height="60" as="geometry" />
+          <mxGeometry x="555" y="515" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Uudwp2KT5LUZXiGAhWFN-40" value="async-storage" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="255" y="140" width="140" height="60" as="geometry" />
+          <mxGeometry x="260" y="530" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uudwp2KT5LUZXiGAhWFN-42" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;Image&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: rgb(23, 43, 77); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 14px; font-weight: 400; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;react-native&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;)&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=2;fillColor=none;verticalAlign=top;fontStyle=1;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="220" y="90" width="230" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="Uudwp2KT5LUZXiGAhWFN-43" value="&lt;span style=&quot;color: rgb(23, 43, 77); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 14px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;fast-image&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="260" y="140" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uudwp2KT5LUZXiGAhWFN-44" value="&lt;span style=&quot;color: rgb(23, 43, 77); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 14px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;image-picker&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="260" y="220" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uudwp2KT5LUZXiGAhWFN-45" value="&lt;span style=&quot;color: rgb(23, 43, 77); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 14px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;image-resizer&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="260" y="300" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uudwp2KT5LUZXiGAhWFN-46" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;View component&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: rgb(23, 43, 77); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 14px; font-weight: 400; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;react-native&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;)&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=2;fillColor=none;verticalAlign=top;fontStyle=1;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="90" width="230" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="Uudwp2KT5LUZXiGAhWFN-47" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 14px;&quot;&gt;&lt;font face=&quot;-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Fira Sans, Droid Sans, Helvetica Neue, sans-serif&quot; color=&quot;#172b4d&quot;&gt;keyboard-aware-scroll-view&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="140" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uudwp2KT5LUZXiGAhWFN-48" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font face=&quot;-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Fira Sans, Droid Sans, Helvetica Neue, sans-serif&quot; color=&quot;#172b4d&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;safe-area-context&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="220" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uudwp2KT5LUZXiGAhWFN-49" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font face=&quot;-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Fira Sans, Droid Sans, Helvetica Neue, sans-serif&quot; color=&quot;#172b4d&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;status-bar-height&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="300" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uudwp2KT5LUZXiGAhWFN-50" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font face=&quot;-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Fira Sans, Droid Sans, Helvetica Neue, sans-serif&quot; color=&quot;#172b4d&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;swiper&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="380" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uudwp2KT5LUZXiGAhWFN-51" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font face=&quot;-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Fira Sans, Droid Sans, Helvetica Neue, sans-serif&quot; color=&quot;#172b4d&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;webview&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="460" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uudwp2KT5LUZXiGAhWFN-52" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 14px;&quot;&gt;&lt;font face=&quot;-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Fira Sans, Droid Sans, Helvetica Neue, sans-serif&quot; color=&quot;#172b4d&quot;&gt;svg&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="260" y="380" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uudwp2KT5LUZXiGAhWFN-56" value="rn-placeholder&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="260" y="645" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uudwp2KT5LUZXiGAhWFN-57" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;tools&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=2;fillColor=none;verticalAlign=top;fontStyle=1;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="560" width="230" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="Uudwp2KT5LUZXiGAhWFN-60" value="moment" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="5" y="680" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uudwp2KT5LUZXiGAhWFN-61" value="lodash" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="5" y="595" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uudwp2KT5LUZXiGAhWFN-67" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;devDependencies&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=2;fillColor=none;verticalAlign=top;fontStyle=1;strokeColor=#0000FF;" vertex="1" parent="1">
+          <mxGeometry x="1750" y="60" width="720" height="990" as="geometry" />
+        </mxCell>
+        <mxCell id="Uudwp2KT5LUZXiGAhWFN-68" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;typescript&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=2;fillColor=none;verticalAlign=top;fontStyle=1;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1770" y="110" width="200" height="690" as="geometry" />
+        </mxCell>
+        <mxCell id="Uudwp2KT5LUZXiGAhWFN-72" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;transformer&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=2;fillColor=none;verticalAlign=top;fontStyle=1;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="2000" y="110" width="210" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="Uudwp2KT5LUZXiGAhWFN-63" value="react" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1800" y="150" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uudwp2KT5LUZXiGAhWFN-64" value="lodash" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1800" y="230" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uudwp2KT5LUZXiGAhWFN-65" value="react-native" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1800" y="310" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uudwp2KT5LUZXiGAhWFN-69" value="metro-react-native-babel-transformer" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2040" y="150" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uudwp2KT5LUZXiGAhWFN-70" value="react-native-builder-bob" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2040" y="230" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uudwp2KT5LUZXiGAhWFN-77" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;plugin&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=2;fillColor=none;verticalAlign=top;fontStyle=1;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="2000" y="425" width="210" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="Uudwp2KT5LUZXiGAhWFN-78" value="babel-plugin-inline-import" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2030" y="465" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uudwp2KT5LUZXiGAhWFN-79" value="eslint-plugin-unused-imports" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2030" y="545" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uudwp2KT5LUZXiGAhWFN-80" value="husky" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2270" y="620" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uudwp2KT5LUZXiGAhWFN-82" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;prettier&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=2;fillColor=none;verticalAlign=top;fontStyle=1;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1770" y="820" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="Uudwp2KT5LUZXiGAhWFN-85" value="eslint-config-prettier" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1800" y="860" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uudwp2KT5LUZXiGAhWFN-86" value="eslint-plugin-prettier" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1800" y="940" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uudwp2KT5LUZXiGAhWFN-88" value="pod-install" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2270" y="700" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uudwp2KT5LUZXiGAhWFN-89" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;release-it&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=2;fillColor=none;verticalAlign=top;fontStyle=1;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="2240" y="480" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Uudwp2KT5LUZXiGAhWFN-87" value="conventional-changelog" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2270" y="520" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uudwp2KT5LUZXiGAhWFN-92" value="@babel/eslint-parser" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2040" y="310" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uudwp2KT5LUZXiGAhWFN-93" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;babel&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=2;fillColor=none;verticalAlign=top;fontStyle=1;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="2240" y="107.5" width="200" height="355" as="geometry" />
+        </mxCell>
+        <mxCell id="Uudwp2KT5LUZXiGAhWFN-94" value="mime" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1800" y="390" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uudwp2KT5LUZXiGAhWFN-95" value="core" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2270" y="142.5" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uudwp2KT5LUZXiGAhWFN-96" value="preset-env" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2270" y="222.5" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uudwp2KT5LUZXiGAhWFN-97" value="runtime" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2270" y="302.5" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uudwp2KT5LUZXiGAhWFN-98" value="eslint-parser" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2270" y="382.5" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uudwp2KT5LUZXiGAhWFN-100" value="react-native" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1800" y="470" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uudwp2KT5LUZXiGAhWFN-101" value="react-native-snap-carousel" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1800" y="550" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uudwp2KT5LUZXiGAhWFN-102" value="react-test-renderer" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1800" y="630" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uudwp2KT5LUZXiGAhWFN-103" value="ws" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1800" y="710" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uudwp2KT5LUZXiGAhWFN-104" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;typescript&amp;nbsp;plugin&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=2;fillColor=none;verticalAlign=top;fontStyle=1;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="2000" y="645" width="200" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="Uudwp2KT5LUZXiGAhWFN-105" value="parser" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2040" y="685" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uudwp2KT5LUZXiGAhWFN-106" value="eslint-plugin" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2040" y="765" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uudwp2KT5LUZXiGAhWFN-107" value="babel-jest" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2270" y="780" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uudwp2KT5LUZXiGAhWFN-108" value="metro-react-native-babel-preset" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2040" y="890" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uudwp2KT5LUZXiGAhWFN-109" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;Advance&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=2;fillColor=none;verticalAlign=top;fontStyle=1;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="770" y="90" width="230" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="Uudwp2KT5LUZXiGAhWFN-110" value="react-native-vision-camera" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="810" y="140" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uudwp2KT5LUZXiGAhWFN-111" value="react-native-device-info&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="810" y="220" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uudwp2KT5LUZXiGAhWFN-112" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;QR Code&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=2;fillColor=none;verticalAlign=top;fontStyle=1;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="765" y="345" width="230" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="Uudwp2KT5LUZXiGAhWFN-113" value="vision-camera-code-scanner&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="805" y="390" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uudwp2KT5LUZXiGAhWFN-114" value="rn-qr-generator&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="805" y="470" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uudwp2KT5LUZXiGAhWFN-115" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font face=&quot;-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Fira Sans, Droid Sans, Helvetica Neue, sans-serif&quot; color=&quot;#172b4d&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;mime&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1065" y="780" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uudwp2KT5LUZXiGAhWFN-116" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;navigation&lt;br&gt;(&lt;/span&gt;&lt;span style=&quot;color: rgb(23, 43, 77); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 14px; font-weight: 400; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;@react-navigation&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;)&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=2;fillColor=none;verticalAlign=top;fontStyle=1;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1290" y="660" width="230" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="Uudwp2KT5LUZXiGAhWFN-117" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 14px;&quot;&gt;&lt;font face=&quot;-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Fira Sans, Droid Sans, Helvetica Neue, sans-serif&quot; color=&quot;#172b4d&quot;&gt;moment&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1335" y="705" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uudwp2KT5LUZXiGAhWFN-118" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font face=&quot;-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Fira Sans, Droid Sans, Helvetica Neue, sans-serif&quot; color=&quot;#172b4d&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;bottom-tabs&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1335" y="780" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uudwp2KT5LUZXiGAhWFN-119" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font face=&quot;-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Fira Sans, Droid Sans, Helvetica Neue, sans-serif&quot; color=&quot;#172b4d&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;native-stack&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1335" y="860" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uudwp2KT5LUZXiGAhWFN-23" value="mobx" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="575" y="700" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uudwp2KT5LUZXiGAhWFN-24" value="mobx-react" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="575" y="780" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uudwp2KT5LUZXiGAhWFN-25" value="mobx-state-tree" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="575" y="860" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uudwp2KT5LUZXiGAhWFN-120" value="@react-native-clipboard/clipboard" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1290" y="90" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uudwp2KT5LUZXiGAhWFN-121" value="react-native-config&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1290" y="175" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uudwp2KT5LUZXiGAhWFN-122" value="react-native-fingerprint-scanner&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1290" y="255" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uudwp2KT5LUZXiGAhWFN-123" value="react-native-gesture-handler&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1290" y="335" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uudwp2KT5LUZXiGAhWFN-124" value="react-native-linear-gradient&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1075" y="470" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uudwp2KT5LUZXiGAhWFN-125" value="react-native-localize&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1290" y="415" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uudwp2KT5LUZXiGAhWFN-126" value="react-native-progress&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1290" y="500" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uudwp2KT5LUZXiGAhWFN-127" value="react-native-reanimated&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1460" y="90" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uudwp2KT5LUZXiGAhWFN-128" value="react-native-screens&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1460" y="180" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uudwp2KT5LUZXiGAhWFN-130" value="react-native-snap-carousel&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1460" y="260" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uudwp2KT5LUZXiGAhWFN-131" value="react-native-splash-screen&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1460" y="340" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uudwp2KT5LUZXiGAhWFN-132" value="react-native-vector-icons&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1460" y="420" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uudwp2KT5LUZXiGAhWFN-133" value="reactotron-mst&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1460" y="500" width="140" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
