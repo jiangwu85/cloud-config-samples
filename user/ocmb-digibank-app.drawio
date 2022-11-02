@@ -1,14 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2022-11-02T15:14:58.720Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="AwY12X-mvwf-dds8opc-" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-02T15:15:32.602Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="QkPVh-clobzjRG5hTdBz" version="20.5.1" type="github">
   <diagram id="OInQUNuNO3AYRQuPPQoJ" name="第 1 页">
     <mxGraphModel dx="3683" dy="1392" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="1uEvt_R6zlW470bMk80g-106" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;Digibank APP&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=2;fillColor=none;verticalAlign=top;fontStyle=1;strokeColor=#FF0505;" parent="1" vertex="1">
-          <mxGeometry x="-110" y="20" width="2610" height="1060" as="geometry" />
+          <mxGeometry x="-110" y="20" width="2510" height="1060" as="geometry" />
         </mxCell>
         <mxCell id="x6n-TaQfmUCHtvgikXO5-33" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;APP&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=2;fillColor=none;verticalAlign=top;fontStyle=1;strokeColor=#0000FF;" parent="1" vertex="1">
-          <mxGeometry x="490" y="60" width="1220" height="950" as="geometry" />
+          <mxGeometry x="490" y="60" width="1140" height="950" as="geometry" />
         </mxCell>
         <mxCell id="Uudwp2KT5LUZXiGAhWFN-2" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;oc-ui-rn&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=2;fillColor=none;verticalAlign=top;fontStyle=1;strokeColor=#0000FF;" vertex="1" parent="1">
           <mxGeometry x="-70" y="60" width="540" height="730" as="geometry" />
@@ -23,7 +23,7 @@
           <mxGeometry x="240" y="810" width="230" height="120" as="geometry" />
         </mxCell>
         <mxCell id="Uudwp2KT5LUZXiGAhWFN-12" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;Base&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=2;fillColor=none;verticalAlign=top;fontStyle=1;strokeColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="510" y="630" width="1140" height="340" as="geometry" />
+          <mxGeometry x="510" y="630" width="1040" height="340" as="geometry" />
         </mxCell>
         <mxCell id="Uudwp2KT5LUZXiGAhWFN-15" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;Notification&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;(react-native-firebase&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=2;fillColor=none;verticalAlign=top;fontStyle=1;strokeColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="510" y="240" width="230" height="360" as="geometry" />
@@ -131,106 +131,106 @@
           <mxGeometry x="5" y="595" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Uudwp2KT5LUZXiGAhWFN-67" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;devDependencies&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=2;fillColor=none;verticalAlign=top;fontStyle=1;strokeColor=#0000FF;" vertex="1" parent="1">
-          <mxGeometry x="1750" y="60" width="720" height="990" as="geometry" />
+          <mxGeometry x="1660" y="60" width="720" height="990" as="geometry" />
         </mxCell>
         <mxCell id="Uudwp2KT5LUZXiGAhWFN-68" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;typescript&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=2;fillColor=none;verticalAlign=top;fontStyle=1;strokeColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="1770" y="110" width="200" height="690" as="geometry" />
+          <mxGeometry x="1680" y="110" width="200" height="690" as="geometry" />
         </mxCell>
         <mxCell id="Uudwp2KT5LUZXiGAhWFN-72" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;transformer&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=2;fillColor=none;verticalAlign=top;fontStyle=1;strokeColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="2000" y="110" width="210" height="290" as="geometry" />
+          <mxGeometry x="1910" y="110" width="210" height="290" as="geometry" />
         </mxCell>
         <mxCell id="Uudwp2KT5LUZXiGAhWFN-63" value="react" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1800" y="150" width="140" height="60" as="geometry" />
+          <mxGeometry x="1710" y="150" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Uudwp2KT5LUZXiGAhWFN-64" value="lodash" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1800" y="230" width="140" height="60" as="geometry" />
+          <mxGeometry x="1710" y="230" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Uudwp2KT5LUZXiGAhWFN-65" value="react-native" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1800" y="310" width="140" height="60" as="geometry" />
+          <mxGeometry x="1710" y="310" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Uudwp2KT5LUZXiGAhWFN-69" value="metro-react-native-babel-transformer" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="2040" y="150" width="140" height="60" as="geometry" />
+          <mxGeometry x="1950" y="150" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Uudwp2KT5LUZXiGAhWFN-70" value="react-native-builder-bob" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="2040" y="230" width="140" height="60" as="geometry" />
+          <mxGeometry x="1950" y="230" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Uudwp2KT5LUZXiGAhWFN-77" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;plugin&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=2;fillColor=none;verticalAlign=top;fontStyle=1;strokeColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="2000" y="425" width="210" height="200" as="geometry" />
+          <mxGeometry x="1910" y="425" width="210" height="200" as="geometry" />
         </mxCell>
         <mxCell id="Uudwp2KT5LUZXiGAhWFN-78" value="babel-plugin-inline-import" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="2030" y="465" width="140" height="60" as="geometry" />
+          <mxGeometry x="1940" y="465" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Uudwp2KT5LUZXiGAhWFN-79" value="eslint-plugin-unused-imports" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="2030" y="545" width="140" height="60" as="geometry" />
+          <mxGeometry x="1940" y="545" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Uudwp2KT5LUZXiGAhWFN-80" value="husky" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="2270" y="620" width="140" height="60" as="geometry" />
+          <mxGeometry x="2180" y="620" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Uudwp2KT5LUZXiGAhWFN-82" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;prettier&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=2;fillColor=none;verticalAlign=top;fontStyle=1;strokeColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="1770" y="820" width="200" height="200" as="geometry" />
+          <mxGeometry x="1680" y="820" width="200" height="200" as="geometry" />
         </mxCell>
         <mxCell id="Uudwp2KT5LUZXiGAhWFN-85" value="eslint-config-prettier" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1800" y="860" width="140" height="60" as="geometry" />
+          <mxGeometry x="1710" y="860" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Uudwp2KT5LUZXiGAhWFN-86" value="eslint-plugin-prettier" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1800" y="940" width="140" height="60" as="geometry" />
+          <mxGeometry x="1710" y="940" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Uudwp2KT5LUZXiGAhWFN-88" value="pod-install" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="2270" y="700" width="140" height="60" as="geometry" />
+          <mxGeometry x="2180" y="700" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Uudwp2KT5LUZXiGAhWFN-89" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;release-it&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=2;fillColor=none;verticalAlign=top;fontStyle=1;strokeColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="2240" y="480" width="200" height="120" as="geometry" />
+          <mxGeometry x="2150" y="480" width="200" height="120" as="geometry" />
         </mxCell>
         <mxCell id="Uudwp2KT5LUZXiGAhWFN-87" value="conventional-changelog" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="2270" y="520" width="140" height="60" as="geometry" />
+          <mxGeometry x="2180" y="520" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Uudwp2KT5LUZXiGAhWFN-92" value="@babel/eslint-parser" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="2040" y="310" width="140" height="60" as="geometry" />
+          <mxGeometry x="1950" y="310" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Uudwp2KT5LUZXiGAhWFN-93" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;babel&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=2;fillColor=none;verticalAlign=top;fontStyle=1;strokeColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="2240" y="107.5" width="200" height="355" as="geometry" />
+          <mxGeometry x="2150" y="107.5" width="200" height="355" as="geometry" />
         </mxCell>
         <mxCell id="Uudwp2KT5LUZXiGAhWFN-94" value="mime" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1800" y="390" width="140" height="60" as="geometry" />
+          <mxGeometry x="1710" y="390" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Uudwp2KT5LUZXiGAhWFN-95" value="core" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="2270" y="142.5" width="140" height="60" as="geometry" />
+          <mxGeometry x="2180" y="142.5" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Uudwp2KT5LUZXiGAhWFN-96" value="preset-env" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="2270" y="222.5" width="140" height="60" as="geometry" />
+          <mxGeometry x="2180" y="222.5" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Uudwp2KT5LUZXiGAhWFN-97" value="runtime" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="2270" y="302.5" width="140" height="60" as="geometry" />
+          <mxGeometry x="2180" y="302.5" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Uudwp2KT5LUZXiGAhWFN-98" value="eslint-parser" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="2270" y="382.5" width="140" height="60" as="geometry" />
+          <mxGeometry x="2180" y="382.5" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Uudwp2KT5LUZXiGAhWFN-100" value="react-native" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1800" y="470" width="140" height="60" as="geometry" />
+          <mxGeometry x="1710" y="470" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Uudwp2KT5LUZXiGAhWFN-101" value="react-native-snap-carousel" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1800" y="550" width="140" height="60" as="geometry" />
+          <mxGeometry x="1710" y="550" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Uudwp2KT5LUZXiGAhWFN-102" value="react-test-renderer" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1800" y="630" width="140" height="60" as="geometry" />
+          <mxGeometry x="1710" y="630" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Uudwp2KT5LUZXiGAhWFN-103" value="ws" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1800" y="710" width="140" height="60" as="geometry" />
+          <mxGeometry x="1710" y="710" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Uudwp2KT5LUZXiGAhWFN-104" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;typescript&amp;nbsp;plugin&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=2;fillColor=none;verticalAlign=top;fontStyle=1;strokeColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="2000" y="645" width="200" height="220" as="geometry" />
+          <mxGeometry x="1910" y="645" width="200" height="220" as="geometry" />
         </mxCell>
         <mxCell id="Uudwp2KT5LUZXiGAhWFN-105" value="parser" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="2040" y="685" width="140" height="60" as="geometry" />
+          <mxGeometry x="1950" y="685" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Uudwp2KT5LUZXiGAhWFN-106" value="eslint-plugin" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="2040" y="765" width="140" height="60" as="geometry" />
+          <mxGeometry x="1950" y="765" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Uudwp2KT5LUZXiGAhWFN-107" value="babel-jest" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="2270" y="780" width="140" height="60" as="geometry" />
+          <mxGeometry x="2180" y="780" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Uudwp2KT5LUZXiGAhWFN-108" value="metro-react-native-babel-preset" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="2040" y="890" width="140" height="60" as="geometry" />
+          <mxGeometry x="1950" y="890" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Uudwp2KT5LUZXiGAhWFN-109" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;Advance&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=2;fillColor=none;verticalAlign=top;fontStyle=1;strokeColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="770" y="90" width="230" height="230" as="geometry" />
