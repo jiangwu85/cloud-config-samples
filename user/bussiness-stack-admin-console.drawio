@@ -1,1 +1,118 @@
-<mxfile host="app.diagrams.net" modified="2022-11-08T03:08:39.786Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="kVqfmZ-lvBK8YxxB9E-R" version="20.5.1" type="github"><diagram id="OInQUNuNO3AYRQuPPQoJ" name="第 1 页">5Zlbb9owFMc/TR6RciOEx8JKq0nr2rG226OJTWLh2JnjcNmn3zExBDCVNq1csuWB2H9fYv/OybFNnGCYL+8kKrJPAhPm+C5eOsEHx/e9bteFm1ZWRonibq2kkmKjNcKY/iRGNA3TimJS7lVUQjBFi30xEZyTRO1pSEqx2K82FWz/qQVKiSWME8Rs9ZVilRnVc92m4J7QNDOPjjczztGmshHKDGGx2JGCWycYSiFUncqXQ8I0vQ2Xut3ojdLtwCTh6nca5PNvL9x/6RRBf/YcfLzBT16v4/XqbuaIVWbGjh8x6HBQFojrYauVYRH9qPRYB1PBVWdh5nwDVUKAEQyaCpBK9X2CSqJJCFxBF6ZbGGDdc13HsNk+xJei4pjoMetOFxlVZFygRJcuwMdAy1TOIOdBEqMyW9fVmVJJMdtaydcjpYwNBRMS8lxw6GMwJ1JRMO8NoykHWYnCTGlsxnAErJF0W7LckQzoOyJyouQKqpjS0NjceH0nDoywaHwo7Bkt23GfMDIiMn6bbvtuTAsJY90/sXR8QksjnFP+X1k4OrBwr3/Ewt4xC7unsrAfWRZWGcnXryDiEKfk35lCI9ywdvzAXV/HbfAOgONDwF0bsHcM8MneIN+OlWUiCeHtBLxdYq+IsB2jJsCPwQbAj1CucfFJqW8t5B0cLgpXwLtv8SawZ5LaoUlZ6q1RK13bQh3Fl0a92QDsoIYt65Sm7SR8GJ2vALBnAcY0UVRwtB54CyFbEfoKKPsWZerFLV0BLSf2Lo43sPDC1Mnh6kf5VLQTue3Sl2cevsHcrQomEHb0udrwr39BgZM8rwvbw95eFS/PvmuxL6TAVaLa6d6HEaUbXpywfShsCCdIkVT8M8vjFdC2j4hcKDqlQBp2IlCiSF4wwN5O5FYIOStyVqLH+y+rl9HDs/+UPXzP3dewE9hnmAnis3PyBX00GsJ1miCy/aPwYow3Rt4/vKjzBo53pmxFjyvAbB9hPn99PAtZzXU0OlGQOCVZyDafUNZlO1+igttf</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-11-08T04:36:15.234Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="NTLwb0HBk41fg54qNwmr" version="20.5.1" type="github">
+  <diagram id="OInQUNuNO3AYRQuPPQoJ" name="第 1 页">
+    <mxGraphModel dx="1550" dy="1685" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="mvXVn2V-p39kU3JAdQ17-17" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;admin console&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=2;fillColor=none;verticalAlign=top;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="40" y="-833" width="950" height="830" as="geometry" />
+        </mxCell>
+        <mxCell id="QJig1PqDdZKSu3nEvNay-28" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;role &amp;amp; user&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=2;fillColor=none;verticalAlign=top;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="60" y="-800" width="590" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="QJig1PqDdZKSu3nEvNay-31" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;role &amp;amp; user&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=2;fillColor=none;verticalAlign=top;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="60" y="-670" width="910" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="QJig1PqDdZKSu3nEvNay-32" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;digibank app&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=2;fillColor=none;verticalAlign=top;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="60" y="-530" width="910" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="QJig1PqDdZKSu3nEvNay-29" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;product&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=2;fillColor=none;verticalAlign=top;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="670" y="-800" width="300" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="QJig1PqDdZKSu3nEvNay-33" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;interview&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=2;fillColor=none;verticalAlign=top;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="60" y="-330" width="910" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="mvXVn2V-p39kU3JAdQ17-35" value="user manager" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="76" y="-764" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QJig1PqDdZKSu3nEvNay-1" value="role manager" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="226" y="-764" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QJig1PqDdZKSu3nEvNay-2" value="permisson manager" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="376" y="-764" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QJig1PqDdZKSu3nEvNay-3" value="product category manager" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="690" y="-764" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QJig1PqDdZKSu3nEvNay-4" value="product manager" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="840" y="-764" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QJig1PqDdZKSu3nEvNay-5" value="field manager" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="76" y="-636" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QJig1PqDdZKSu3nEvNay-6" value="archived form view" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="516" y="-636" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QJig1PqDdZKSu3nEvNay-7" value="form manager" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="372" y="-636" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QJig1PqDdZKSu3nEvNay-8" value="screen manager" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="222" y="-636" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QJig1PqDdZKSu3nEvNay-9" value="slp form view" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="656" y="-636" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QJig1PqDdZKSu3nEvNay-10" value="customer manager" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="76" y="-500" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QJig1PqDdZKSu3nEvNay-11" value="application view" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="222" y="-500" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QJig1PqDdZKSu3nEvNay-12" value="app setting" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="372" y="-500" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QJig1PqDdZKSu3nEvNay-13" value="screen text manager&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="516" y="-500" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QJig1PqDdZKSu3nEvNay-14" value="screen setting manager&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="656" y="-500" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QJig1PqDdZKSu3nEvNay-15" value="app id manager" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="796" y="-500" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QJig1PqDdZKSu3nEvNay-16" value="device fingerprint view" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="76" y="-420" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QJig1PqDdZKSu3nEvNay-17" value="app version view" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#FFCCCC;" vertex="1" parent="1">
+          <mxGeometry x="226" y="-420" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QJig1PqDdZKSu3nEvNay-18" value="appointment manager" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="76" y="-300" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QJig1PqDdZKSu3nEvNay-19" value="question manager" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="226" y="-300" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QJig1PqDdZKSu3nEvNay-20" value="interview report view" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="376" y="-300" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QJig1PqDdZKSu3nEvNay-21" value="dictionary manager" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="76" y="-175" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QJig1PqDdZKSu3nEvNay-22" value="configuration manager" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="226" y="-175" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QJig1PqDdZKSu3nEvNay-23" value="error message manager" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="376" y="-175" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QJig1PqDdZKSu3nEvNay-24" value="ocdb api manager" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="506" y="-175" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QJig1PqDdZKSu3nEvNay-25" value="integrated api manager" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="656" y="-175" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QJig1PqDdZKSu3nEvNay-26" value="audit trail manager" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#FFCCCC;" vertex="1" parent="1">
+          <mxGeometry x="806" y="-175" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QJig1PqDdZKSu3nEvNay-27" value="file manager" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="76" y="-90" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QJig1PqDdZKSu3nEvNay-30" value="role permisson setting" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="520" y="-764" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QJig1PqDdZKSu3nEvNay-34" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;system&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=2;fillColor=none;verticalAlign=top;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="60" y="-200" width="910" height="180" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
