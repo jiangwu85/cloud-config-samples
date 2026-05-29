@@ -1,27 +1,25 @@
 结合你提供的信任策略和最新的“零代码改造”最佳实践，这是为你定制的、最终的正确配置。
-这个方案的核心是：Java 代码完全不知道 RRSA 的存在，所有配置都通过 Kubernetes 环境变量注入，由阿里云 SDK 自动完成身份认证。
-📄 1. Spring Boot 配置文件 (application.yml)
+
+这个方案的核心是：**Java 代码完全不知道 RRSA 的存在**，所有配置都通过 Kubernetes 环境变量注入，由阿里云 SDK 自动完成身份认证。
+
+### 📄 1. Spring Boot 配置文件 (application.yml)
+
 这个文件只包含你的业务配置，不包含任何关于 RAM 角色、OIDC 提供商等敏感信息。
-yaml
 
-编辑
-
-
-
+```yaml
 aliyun:
   oss:
     # OSS Bucket 所在地域
     region-id: ${ALIYUN_OSS_REGION_ID:cn-beijing}
     # OSS Bucket 名称
     bucket-name: ${ALIYUN_OSS_BUCKET_NAME:your-bucket-name}
-💻 2. Spring Boot Java 代码
+```
+
+### 💻 2. Spring Boot Java 代码
+
 这段代码非常干净，它不关心凭证从何而来，只负责使用凭证。SDK 会自动从环境变量中读取 RRSA 配置并完成认证。
-java
 
-编辑
-
-
-
+```java
 import com.aliyun.credentials.Client;
 import com.aliyun.credentials.models.Config;
 import com.aliyun.sdk.service.oss2.OSSClient;
@@ -80,14 +78,13 @@ public class OssService {
         return convFile;
     }
 }
-☸️ 3. Kubernetes Deployment 配置 (关键部分)
+```
+
+### ☸️ 3. Kubernetes Deployment 配置 (关键部分)
+
 这是整个方案的“指挥中心”。你需要将信任策略中的信息，通过环境变量的方式注入到 Pod 中。
-yaml
 
-编辑
-
-
-
+```yaml
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -139,3 +136,4 @@ spec:
               expirationSeconds: 3600
               # audience 必须与信任策略中的 oidc:aud 一致
               audience: sts.aliyuncs.com
+```
