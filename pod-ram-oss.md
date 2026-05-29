@@ -1,139 +1,129 @@
-结合你提供的信任策略和最新的“零代码改造”最佳实践，这是为你定制的、最终的正确配置。
+保持极致简洁的核心在于：**只保留业务必须的配置，将云原生环境下的凭证获取完全交给阿里云官方 SDK 自动处理**。
 
-这个方案的核心是：**Java 代码完全不知道 RRSA 的存在**，所有配置都通过 Kubernetes 环境变量注入，由阿里云 SDK 自动完成身份认证。
+以下是去除了所有冗余代码的极简版本：
 
-### 📄 1. Spring Boot 配置文件 (application.yml)
-
-这个文件只包含你的业务配置，不包含任何关于 RAM 角色、OIDC 提供商等敏感信息。
+### 📄 application.yml
+仅保留 OSS 的地域、Bucket 名称和 RAM 角色 ARN（用于明确指定要扮演的角色）。
 
 ```yaml
 aliyun:
   oss:
-    # OSS Bucket 所在地域
-    region-id: ${ALIYUN_OSS_REGION_ID:cn-beijing}
-    # OSS Bucket 名称
-    bucket-name: ${ALIYUN_OSS_BUCKET_NAME:your-bucket-name}
+    region-id: cn-beijing                   # 替换为你的 Bucket 所在地域
+    bucket-name: your-bucket-name           # 替换为你的 Bucket 名称
+    role-arn: acs:ram::1257099578784861:role/your-role-name  # 替换为你绑定的 RAM Role ARN
 ```
 
-### 💻 2. Spring Boot Java 代码
+---
 
-这段代码非常干净，它不关心凭证从何而来，只负责使用凭证。SDK 会自动从环境变量中读取 RRSA 配置并完成认证。
+### ☕ Java 核心代码
+
+#### 1. Maven 依赖 (`pom.xml`)
+```xml
+<dependency>
+    <groupId>com.aliyun.oss</groupId>
+    <artifactId>aliyun-sdk-oss</artifactId>
+    <version>3.17.4</version>
+</dependency>
+<dependency>
+    <groupId>com.aliyun</groupId>
+    <artifactId>credentials-java</artifactId>
+    <version>0.3.4</version>
+</dependency>
+```
+
+#### 2. 配置类 (`OssConfig.java`)
+利用 `credentials-java` 库的自动化能力，SDK 会自动从 K8s 注入的环境变量中抓取 OIDC Token 文件路径等信息，我们只需指定类型和 RoleArn 即可。
 
 ```java
 import com.aliyun.credentials.Client;
 import com.aliyun.credentials.models.Config;
-import com.aliyun.sdk.service.oss2.OSSClient;
-import com.aliyun.sdk.service.oss2.credentials.CredentialsProvider;
-import com.aliyun.sdk.service.oss2.credentials.CredentialsProviderSupplier;
-import com.aliyun.sdk.service.oss2.models.PutObjectRequest;
-import darabonba.core.client.ClientOverrideConfiguration;
-import org.springframework.beans.factory.annotation.Value;
-import org.springframework.stereotype.Service;
-import org.springframework.web.multipart.MultipartFile;
+import com.aliyun.oss.ClientBuilderConfiguration;
+import com.aliyun.oss.OSS;
+import com.aliyun.oss.OSSClientBuilder;
+import com.aliyun.oss.common.auth.CredentialsProvider;
+import com.aliyun.oss.common.auth.DefaultCredentials;
+import lombok.Data;
+import org.springframework.boot.context.properties.ConfigurationProperties;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
 
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.InputStream;
+@Configuration
+public class OssConfig {
 
-@Service
-public class OssService {
-
-    @Value("${aliyun.oss.region-id}")
-    private String regionId;
-
-    @Value("${aliyun.oss.bucket-name}")
-    private String bucketName;
-
-    public void uploadFile(MultipartFile file, String objectName) throws Exception {
-        // 1. 初始化一个空的 Config
-        // SDK 会自动检测 ALIBABA_CLOUD_ 开头的环境变量来获取 RRSA 凭证
-        Config credentialConfig = new Config();
-        Client credentialClient = new Client(credentialConfig);
-
-        // 2. 为 OSS SDK 创建凭证提供者
-        CredentialsProvider credentialsProvider = new CredentialsProviderSupplier(credentialClient);
-
-        // 3. 创建 OSS 客户端并执行上传
-        try (OSSClient client = OSSClient.newBuilder()
-                .credentialsProvider(credentialsProvider)
-                .region(regionId)
-                .overrideConfiguration(ClientOverrideConfiguration.create())
-                .build()) {
-
-            InputStream inputStream = new FileInputStream(convertToFile(file));
-            PutObjectRequest putObjectRequest = PutObjectRequest.builder()
-                    .bucket(bucketName)
-                    .key(objectName)
-                    .body(inputStream)
-                    .build();
-
-            client.putObject(putObjectRequest);
-            System.out.println("文件上传成功：" + objectName);
-        }
+    @Bean
+    @ConfigurationProperties(prefix = "aliyun.oss")
+    public OssProperties ossProperties() {
+        return new OssProperties();
     }
 
-    private File convertToFile(MultipartFile multipartFile) throws Exception {
-        File convFile = new File(multipartFile.getOriginalFilename());
-        multipartFile.transferTo(convFile);
-        return convFile;
+    @Bean
+    public OSS ossClient(OssProperties properties) throws Exception {
+        // 极简 RRSA 配置：SDK 会自动读取 K8s 注入的标准环境变量
+        Config credConfig = new Config();
+        credConfig.setType("oidc_role_arn");
+        credConfig.setRoleArn(properties.getRoleArn());
+        
+        Client credentialClient = new Client(credConfig);
+
+        // 封装为 OSS SDK 所需的动态凭证提供者
+        CredentialsProvider credentialsProvider = () -> {
+            var credential = credentialClient.getCredential();
+            return new DefaultCredentials(
+                credential.getAccessKeyId(),
+                credential.getAccessKeySecret(),
+                credential.getSecurityToken()
+            );
+        };
+
+        // 初始化 OSS 客户端（推荐开启 V4 签名）
+        ClientBuilderConfiguration conf = new ClientBuilderConfiguration();
+        conf.setSignatureVersion(com.aliyun.oss.common.comm.SignVersion.V4);
+        
+        return new OSSClientBuilder().build(properties.getRegionId(), credentialsProvider, conf);
+    }
+
+    @Data
+    public static class OssProperties {
+        private String regionId;
+        private String bucketName;
+        private String roleArn;
     }
 }
 ```
 
-### ☸️ 3. Kubernetes Deployment 配置 (关键部分)
+#### 3. 业务服务类 (`OssService.java`)
+直接注入 `OSS` 客户端进行日常操作，代码与使用普通 AccessKey 时完全一致。
 
-这是整个方案的“指挥中心”。你需要将信任策略中的信息，通过环境变量的方式注入到 Pod 中。
+```java
+import com.aliyun.oss.OSS;
+import com.aliyun.oss.model.PutObjectRequest;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Service;
+import org.springframework.web.multipart.MultipartFile;
 
-```yaml
-apiVersion: apps/v1
-kind: Deployment
-metadata:
-  name: springboot-oss-app
-  namespace: backend-dev
-spec:
-  template:
-    spec:
-      serviceAccountName: default # 必须与信任策略中的 serviceaccount 名称一致
-      containers:
-      - name: springboot-app
-        image: your-springboot-image:latest
-        env:
-        # --- RRSA 核心配置 (从这里开始) ---
-        
-        # 1. 指定 OIDC Token 文件的路径 (必须与下方 volumeMounts 的路径一致)
-        - name: ALIBABA_CLOUD_OIDC_TOKEN_FILE
-          value: "/var/run/secrets/oidc/token"
-        
-        # 2. 从你的信任策略中获取的 RAM 角色 ARN
-        - name: ALIBABA_CLOUD_ROLE_ARN
-          value: "acs:ram::1257099578784861:role/你的RAM角色名称"
-        
-        # 3. 从你的信任策略中获取的 OIDC 提供商 ARN
-        - name: ALIBABA_CLOUD_OIDC_PROVIDER_ARN
-          value: "acs:ram::1257099578784861:oidc-provider/ack-rrsa-c22741d64a9dc4b51886803b90aa95408"
-        
-        # 4. 自定义会话名称
-        - name: ALIBABA_CLOUD_ROLE_SESSION_NAME
-          value: "springboot-oss-app"
-        
-        # --- 业务配置 ---
-        - name: ALIYUN_OSS_REGION_ID
-          value: "cn-beijing"
-        - name: ALIYUN_OSS_BUCKET_NAME
-          value: "your-bucket-name"
-          
-        volumeMounts:
-        # 挂载 OIDC Token，路径必须与 ALIBABA_CLOUD_OIDC_TOKEN_FILE 的值一致
-        - name: oidc-token
-          mountPath: /var/run/secrets/oidc
-          readOnly: true
-      volumes:
-      - name: oidc-token
-        projected:
-          sources:
-          - serviceAccountToken:
-              path: token
-              expirationSeconds: 3600
-              # audience 必须与信任策略中的 oidc:aud 一致
-              audience: sts.aliyuncs.com
+import java.io.IOException;
+
+@Service
+public class OssService {
+
+    @Autowired
+    private OSS ossClient;
+
+    @Value("${aliyun.oss.bucket-name}")
+    private String bucketName;
+
+    public String uploadFile(MultipartFile file, String objectName) throws IOException {
+        try {
+            // 执行上传
+            ossClient.putObject(new PutObjectRequest(bucketName, objectName, file.getInputStream()));
+            
+            // 返回文件的访问 URL
+            return String.format("https://%s.%s.aliyuncs.com/%s", 
+                    bucketName, ossClient.getClientConfiguration().getRegionId(), objectName);
+        } catch (Exception e) {
+            throw new RuntimeException("文件上传失败", e);
+        }
+    }
+}
 ```
